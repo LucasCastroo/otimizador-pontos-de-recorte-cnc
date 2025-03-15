@@ -60,8 +60,8 @@ def main():
     execution_time = end_time - start_time
 
     print("\n✅ Otimização Concluída!")
-    print(f"⏱️ Tempo total de execução: {execution_time:.2f} segundos")
-    print(f"🏆 Melhor Fitness Obtido: {ga_optimizer.best_fitness:.2f}")
+    print(f"\n⏱️ Tempo total de execução: {execution_time:.2f} segundos")
+    print(f"\n🏆 Melhor Fitness Obtido: {ga_optimizer.best_fitness:.2f}")
 
     """
     # Instantiate and run Particle Swarm Optimization.
